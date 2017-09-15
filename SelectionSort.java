@@ -12,6 +12,7 @@ public class SelectionSort{
 			array = swap(array, i, minIndex);
 
 		}
+		return array;
 	}
 
 	private static int[] swap(int[] array, int posFirst, int posSecond){
