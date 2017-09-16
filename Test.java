@@ -10,6 +10,8 @@ public class Test{
 
 		int[] sortedArray = BubbleSort.bubbleSort(unsortedArray);
 		int[] sortedArray1 = SelectionSort.selectionSort(unsortedArray1);
+		int[] sortedArray2 = SelectionSort.selectionSort(unsortedArray1);
+
 
 
 
@@ -20,7 +22,7 @@ public class Test{
 		// 	System.out.print(element + ", ");
 		// }
 
-		for (int element : sortedArray1 ) {
+		for (int element : sortedArray2 ) {
 			System.out.print(element + ", ");
 		}
 

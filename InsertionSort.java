@@ -1,14 +1,17 @@
 public class InsertionSort{
 	public static int[] insertionSort(int[] array){
 
+		int current;
+		int j;
 
-		return array;
-	}
-
-	private static int[] swap(int[] array, int posFirst, int posSecond){
-		int temp = array[posFirst];
-		array[posFirst] = array[posSecond];
-		array[posSecond] = temp;
+		for (int i = 1; i < array.length ; i++) {
+			current = array[i];
+			j = i - 1;
+			while(j >= 0 && array[j] > current){
+				array[j + 1] = array[j];
+				j = j - 1;
+			}
+		}
 
 		return array;
 	}
