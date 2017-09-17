@@ -19,8 +19,7 @@ public class Test{
 
 
 
-
-
+		System.out.println(BinarySearch.binarySearch(sortedArray2, 6));
 
 		// for (int element : sortedArray ) {
 		// 	System.out.print(element + ", ");
