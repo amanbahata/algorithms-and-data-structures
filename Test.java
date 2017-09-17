@@ -1,3 +1,7 @@
+/**
+ * A test class that runs the various classes that implement the sorting algorithms
+ */
+
 public class Test{
 	public static void main(String[] args) {
 		int result = Gcd.gcd(3,6);

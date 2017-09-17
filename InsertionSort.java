@@ -1,3 +1,7 @@
+/**
+ * A class that implements insertion sort algorithm
+ */
+
 public class InsertionSort{
 	public static int[] insertionSort(int[] array){
 

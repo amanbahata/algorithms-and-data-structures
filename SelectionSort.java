@@ -1,3 +1,7 @@
+/**
+ * A class that implements selection sort algorithm
+ */
+
 public class SelectionSort{
 
 	public static int[] selectionSort(int[] array){

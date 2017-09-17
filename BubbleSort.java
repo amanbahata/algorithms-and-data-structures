@@ -1,3 +1,7 @@
+/**
+ * A class that implements bubble sort algorithm
+ */
+
 public class BubbleSort{
 
 	public static int[] bubbleSort(int[] array){
